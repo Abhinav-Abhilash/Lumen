@@ -1,0 +1,15 @@
+:root {
+  --bg: #0b0b14; --surface: #14142a; --text: #eceaf7; --muted: #9b98b8;
+  --brand: #7c5cff; --accent: #22d3ee; --warm: #fb923c;
+  --grad: linear-gradient(135deg, var(--brand), var(--accent));
+  --font: "Inter", system-ui, sans-serif;
+  --step-0: clamp(1rem, .95rem + .25vw, 1.125rem);
+  --step-1: clamp(1.25rem, 1.1rem + .75vw, 1.6rem);
+  --step-3: clamp(2rem, 1.4rem + 3vw, 3.5rem);
+  --step-5: clamp(2.75rem, 1.5rem + 6vw, 5.5rem);
+  --radius: 16px; --gap: clamp(1rem, 3vw, 2rem);
+  --shadow: 0 20px 50px -20px rgb(124 92 255 / .45);
+}
+@media (prefers-color-scheme: light) {
+  :root { --bg:#f7f6ff; --surface:#fff; --text:#15132b; --muted:#5d5a7a; }
+}
